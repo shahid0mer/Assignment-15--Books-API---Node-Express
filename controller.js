@@ -12,8 +12,6 @@ export const viewBookbyIdController = (req, res) => {
 
   book ? res.json(book) : res.status(404).json({message:`Book not Found`})
 
-  
-  
 };
 
 
